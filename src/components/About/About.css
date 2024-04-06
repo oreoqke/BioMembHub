@@ -1,0 +1,18 @@
+.page-style {
+    margin: 20px;
+}
+
+.section-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #3F6FBC;
+}
+
+.image {
+    display: block;
+    margin: 0 auto;
+    width: 90%;
+    max-width: 800px;
+    padding-bottom: 20px;
+}

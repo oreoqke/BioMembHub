@@ -1,0 +1,8 @@
+.app-container {
+    max-width: 1200px; /* Adjust this value to suit your design */
+    margin: 0 auto; /* This centers the container */
+    padding: 0 20px; /* Optional: Add some padding on the sides */
+    border: 1px solid #ccc; /* Left border */
+}
+
+

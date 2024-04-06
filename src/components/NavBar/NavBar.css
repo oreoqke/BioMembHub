@@ -1,0 +1,40 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    background-color: #003366;
+}
+
+.navbar-logo {
+    width: 100%;
+    display: block;
+}
+
+
+.nav-container {
+    background-color: #3F6FBC;/*#003366; /* Dark blue background */
+    overflow: hidden;
+    display: flex; /* Aligns items in a row */
+    flex: 1;
+  }
+  
+  .nav-button {
+    flex: 1; /* Each button will take equal space */
+    text-align: center; /* Centers text */
+    /*padding: 14px 16px; /* Spacing */
+    text-decoration: none; /* Removes underline from links */
+    font-size: 17px;
+    font-weight: bold;
+    color: #ffffff; /* White text */
+    border-right: 2px solid #1A2B40; /* dark border between buttons */
+    transition: background-color 0.3s; /* Smooth background transition */
+  }
+  
+  .nav-button:last-child {
+    border-right: none; /* No border for the last item */
+  }
+  
+  .nav-button:hover, .nav-button.active {
+    /*background-color: #003366;/*#006699; /* Lighter blue on hover/active */
+    color: #FFFF00; /* Yellow text on hover/active */
+  }
+  
