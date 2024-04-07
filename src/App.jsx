@@ -9,7 +9,6 @@ import About from './components/About/About.jsx';
 import Help from './components/Help/Help.jsx';
 import Databs from './components/Databases/Databases.jsx';
 import WebServers from './components/WebServers/WebServers.jsx';
-import Download from './components/Download/Download.jsx';
 
 function App() {
   return (
@@ -22,7 +21,6 @@ function App() {
           <Route path="/help" element={<Help />} />
           <Route path="/databases" element={<Databs />} />
           <Route path="/webservers" element={<WebServers />} />
-          <Route path="/download" element={<Download />} />
         </Routes>
       </div>
     </Router>
