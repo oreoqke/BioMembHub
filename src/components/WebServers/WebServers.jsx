@@ -5,7 +5,9 @@ import { Webservers } from '../../Urls.jsx';
 function WebServers() {
     return (
         <div className='page-style'>
-            <h1>Research Tools and Databases</h1>
+            <div className='section-title'>
+                Research Tools and Databases
+            </div>
             <p>The {''} <a href={Webservers.PPM}>PPM</a> {' '}
                 (<span className='bold'>P</span>ositioning of {' '}
                 <span className='bold'>P</span>roteins in {' '}

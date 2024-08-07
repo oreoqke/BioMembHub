@@ -5,8 +5,9 @@ import { Databases } from '../../Urls.jsx';
 function Databs() {
     return (
         <div className='page-style'>
-            <h1>Our Databases</h1>
-            
+            <div className='section-title'>
+                Our Database
+            </div>            
             <p>The {''} <a href={Databases.OPRLM}>OPRLM</a> {' '}
                 (<span className='bold'>O</span>rientations of {' '}
                 <span className='bold'>P</span>roteins in {' '}

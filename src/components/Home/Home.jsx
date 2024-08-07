@@ -33,11 +33,9 @@ function intro() {
                 <a href={Webservers.PERMM}>PerMM</a>, and{' '}
                 <a href={Webservers.CELLPM}>CellPM</a>)
                 . It was developed to facilitate all-atom modeling and analysis 
-                of folding, stability, spatial positions, and interations of proteins,
+                of folding, stability, spatial positions, and interactions of proteins,
                 peptides, and small molecules in implicit and explicit
-                membranes of different complexity. The infrastucture is unique 
-                due to its blend of physics-based methods, bioinformatics, and the deep 
-                learning-based AlphaFold System. The built-in web resources facilitate insights into
+                membranes of different complexity. These web resources facilitate insights into
                 structures, energetics, and dynamics of molecules in biomembranes. 
             </p>
         </div>

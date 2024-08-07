@@ -9,6 +9,7 @@ import About from './components/About/About.jsx';
 import Help from './components/Help/Help.jsx';
 import Databs from './components/Databases/Databases.jsx';
 import WebServers from './components/WebServers/WebServers.jsx';
+import Footer from './components/Footer/Footer.jsx';
 
 function App() {
   return (
@@ -18,10 +19,11 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
-          <Route path="/help" element={<Help />} />
           <Route path="/databases" element={<Databs />} />
           <Route path="/webservers" element={<WebServers />} />
+          <Route path="/help" element={<Help />} />
         </Routes>
+        <Footer />
       </div>
     </Router>
   );

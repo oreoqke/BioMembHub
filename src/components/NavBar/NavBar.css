@@ -4,9 +4,40 @@
     background-color: #003366;
 }
 
+.image-container {
+    position: relative;
+}
 .navbar-logo {
     width: 100%;
     display: block;
+}
+
+.overlay1 {
+  position: absolute;
+  top: 20%;
+  left: 73%;
+  color: white;
+  font-size: 0.7em;
+  font-weight: bold;
+  text-align: center;
+  padding: 5px;
+}
+.overlay2 {
+  position: absolute;
+  top: 20%;
+  left: 87%;
+  color: white;
+  font-size: 0.7em;
+  font-weight: bold;
+  text-align: center;
+  padding: 5px;
+}
+
+.overlay1:hover {
+  color:#FFFF00;
+}
+.overlay2:hover {
+  color:#FFFF00;
 }
 
 
